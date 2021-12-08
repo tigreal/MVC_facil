@@ -7,7 +7,7 @@ class main extends Controller{
         parent::__construct();
         $this->view->render('main/index');
         
-        echo "<p>nuevo controlador main</p>";
+        // echo "<p>nuevo controlador main</p>";
     }
     public function saludo(){
         echo "<p>ejecutaste el metodod saludo</p>";

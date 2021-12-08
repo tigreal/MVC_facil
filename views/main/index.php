@@ -6,6 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>esta es la vista de main</h1>
+    <?php require_once 'views/header.php';?>
+
+    <div id="main">
+        <h1 class="center">Bienvenido al sitio</h1>
+    </div>
+    <?php require_once 'views/footer.php';?>
 </body>
 </html>
